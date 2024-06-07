@@ -13,7 +13,7 @@ model_metrics/: Folder to save model performance metrics in image format.
 - Clone this repository.
 - Install the necessary dependencies:
   
-```bash
+```
 pip install -r requirements.txt
 ````
 
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 Model training is performed using the model_creation.py script. This script loads the training data, preprocesses the texts using the BERT tokenizer, obtains the text embeddings and trains a logistic regression model with these embeddings.
 
 # Data base
-The model was trained using the WELFake database located in the welfake_dataset folder which is separated into three files:
+The model was trained using the [WELFake database](https://zenodo.org/records/4561253) located in the welfake_dataset folder which is separated into three files:
 - WELFake_Dataset.csv: Used for model training
 - WELFAKE_Valid.csv: Used to validate model training
 - WELFAKE_Test.csv: Used for testing the model
